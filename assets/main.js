@@ -53,6 +53,7 @@ fetch('pagina4.html')
   .catch(e => {
     console.log(e); // Caso ocorra erro, mostra mensagem no console
   });
+  
 
 /*  
 Código adicional comentado que mostra como implementar a requisição com XMLHttpRequest
@@ -82,5 +83,4 @@ Código adicional comentado que mostra como implementar a requisição com XMLHt
 //   const html = await response.text();
 //   document.querySelector('.resultado').innerHTML = html;
 // }
-
 */
